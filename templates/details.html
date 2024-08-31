@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VG|Contact</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.min.css')}}" />
+  <link rel="stylesheet" href="{{url_for('static', filename='css/all.min.css')}}" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}" />
+</head>
+
+<body class="contact-body">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="{{url_for('index')}}"><img class="logo_brand"
+          src="{{url_for('static', filename='images/logo.png')}}" alt="logo" />
+        Vigilant Guard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="{{url_for('index')}}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('about')}}">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url_for('contact')}}">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-globe"></i> En</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center details-container" data-aos="fade-up"
+      data-aos-duration="1000">
+      <div class="upload-form">
+        <label for="uploadFile" class="upload-label  details-label" id="uploadLabel">
+          <img src="{{url_for('static', filename='images/upload.png')}}" alt="upload">
+          <span class="upload-text">Drop files here or
+            <label for="uploadFile" class="browse_label">Browse</label>
+          </span>
+        </label>
+        <input id="uploadFile" type="file" class="upload-file" multiple />
+        <!-- <button class="submit-btn" id="formBtn"><a href="{{url_for('details')}}" >Submit</a></button> -->
+        <div class="mt-4 w-100 " id="dataResault">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <footer>
+    <img class="copyRightImg" src="{{url_for('static', filename='images/copyRight.png')}}" alt="copyRight" /><span>2023
+      vigilant Guard - Made with love
+      <img class="heartImg" src="{{url_for('static', filename='images/heart.png')}}" alt="heart" /></span>
+    </footer>
+    <script src="{{url_for('static', filename='js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{url_for('static', filename='js/all.min.js')}}"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+    <script src="{{url_for('static', filename='js/details.js')}}"></script>
+</body>
+
+</html>
