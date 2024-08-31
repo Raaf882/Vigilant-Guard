@@ -22,13 +22,12 @@ Our model demonstrated very high accuracy and was trained on 150,000 records of 
 ####
 # Our creative team
 - Rahaf Mansour [@Raaf882](https://github.com/Raaf882) - - Rahafmansr@gmail.com
-- Majed Mosa
+- Majed Mosa - - majdmosaalshahrani@gmail.com
 - Remaz Faisal - - Remazfaisalalghamdi@gmail.com
 
 
 ## Contact 
 Team leader:
-Dalal Abdulrahman
-- Dalal Abdulrahman@gmail.com
+- Dalal Abdulrahman - - Dalal Abdulrahman@gmail.com
 
 
