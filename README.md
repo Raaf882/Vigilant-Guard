@@ -28,6 +28,6 @@ Our model demonstrated very high accuracy and was trained on 150,000 records of 
 
 ## Contact 
 Team leader:
-- Dalal Abdulrahman - - Dalal Abdulrahman@gmail.com
+- Dalal Abdulrahman - - [@Dalal2003] dalalqahtani15@gmail.com
 
 
